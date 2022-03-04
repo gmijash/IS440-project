@@ -13,23 +13,31 @@
 
     <body>
         <div class="apple"><!-- apple div -->
-            <h1>Python BMI Calculator using Flask</h1>
-            <p>
-                Body Mass Index (BMI) is the weight (kg) divided by the height (m) squared.<br><br>
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+            <h1 style="text-align:center">Body Mass Index Calculator</h1>
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+            <p style="text-align:center">
+                Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. Body Mass Index (BMI) is the weight (kg) divided by the height (m) squared.<br><br>
                 BMI = weight / height^2
                 <br><br>
-                This HTML page is built using Flask, which is a popular Python web framework,
-                meaning it is a third-party Python library used for developing web applications.
-                The calculations are done with the Python programming language.
+                This Webapp is built on top of a tiny and lightweight Python web framework 
+                that offers valuable tools and features that make developing web apps in Python relatively 
+                clear and straightforward. Project Possible's team designed and developed this dynamic 
+                web application with computation functionality within  frontend of this Web application using HTML 
+                and CSS, while the Backend was created using a third-party Python library, 
+                and the computations were completed using the Python programming language. 
+                Our team chose AWS for the deployment and hosting of our web application 
+                because of it's reliability , service , customer support and end to end availability 
+                of all the services which we required for our project. AWS also provides detailed comprehensive documentation to learn. 
                 <br><br>
-                Thank you to Ted beers 
+                Thank you to our lecturer, Ted Beers for providing us with this chance. 
             </p>
 
             <!-- form that links to app. User inputs their name and it is POSTed back on the page -->
             <div><!-- form div -->
-                <p>Please enter your details...</p>
+                <p style="text-align:center"> Please enter your details in the forms provied below.</p>
 
-                <form class="pure-form" method="POST" action="/">
+                <form class="pure-form" method="POST" action="/" style="margin: auto; width: 220px;">
                     Name:<br>
                     <input type="text" class="pure-input-rounded" name="username"/><br>
 
@@ -41,7 +49,6 @@
 
                     <button type="submit" class="pure-button-primary">Submit</button>
                 </form>
-                
             </div><!-- form div END -->
 
             <!-- Jinja2 allows us to insert Python with curly braces & percent signs
@@ -59,4 +66,9 @@
             </div><!-- output div END -->
         </div><!-- apple div END -->
     </body>
+    <h4 style="text-align:right "> Team Members: Ashish Maharjan, Mijash Ghimire, Taylor Aguilera <br/> Project Possible Inc.  <br/>
+        (503) 838-8000  <br/>
+        Visit Our Website · Help · Terms · Privacy</h4>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        
 </html>
